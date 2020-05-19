@@ -21,6 +21,3 @@ $ token
 $ python2 face_info.py
 
 $ sahlaz
-
-
-
