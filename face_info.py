@@ -957,7 +957,7 @@ def main():
   global target_id
 
   try:
-	cek = raw_input(R + 'D3b2y' + W +' >> ')
+	cek = raw_input(R + 'SAHLAZ' + W +' >> ')
 
 	if cek.lower() == 'get_data':
 		if len(jml) == 0:
@@ -1035,7 +1035,7 @@ def main():
 		dump_id()
 	elif cek.lower() == 'dump_phone':
 		dump_phone()
-	elif cek.lower() == 'sahlaz':
+	elif cek.lower() == 'dump_sahlaz':
 		dump_sahlaz()
 	elif cek.lower() == 'dump_mail':
 		dump_mail()
