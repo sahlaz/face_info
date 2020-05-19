@@ -45,6 +45,7 @@ def baliho():
 	
 
 	except (KeyError,IOError):
+		print "[!]\n"
 	
 ####################################################################
 #		    Print In terminal
