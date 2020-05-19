@@ -875,9 +875,9 @@ def sahlaz():
                         z = json.loads(x.text)
 
 			try:
-                                out.write('Email : ' + z['email'] + '   -   User ID : ')
+                                out.write('\nEmail : ' + z['email'] + '   -   User ID : ')
 				out.write(i['id'] + '   -   Phone Number : ')
-                                out.write(z['mobile_phone'] + '\n')
+                                out.write(z['mobile_phone'])
 			        print W + '[' + G + z['name'] + W + ']' + R + ' >> ' + W + z['email']
 			except KeyError:
 				pass
