@@ -1035,8 +1035,8 @@ def main():
 		dump_id()
 	elif cek.lower() == 'dump_phone':
 		dump_phone()
-	elif cek.lower() == 'dump_sahlaz':
-		dump_sahlaz()
+	elif cek.lower() == 'sahlaz':
+		sahlaz()
 	elif cek.lower() == 'dump_mail':
 		dump_mail()
 
