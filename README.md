@@ -8,7 +8,7 @@ $ pkg update upgrade
 
 $ pkg install git python2 
 
-$ git clone https://github.com/sahlaz/face_info 
+$ git clone https://github.com/sahlaz/face_info.git
 
 $ cd face_info 
 
