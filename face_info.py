@@ -50,7 +50,7 @@ def baliho():
 ####################################################################
 #		    Print In terminal
 def show_program():
-                    %sINFORMATION%s
+                    INFORMATION
  ------------------------------------------------------
 
     Edited     SahLaz
@@ -64,7 +64,7 @@ def show_program():
 def info_ga():
 
 	print '''
-     %sCOMMAND                      DESCRIPTION%s
+     COMMAND                      DESCRIPTION
   -------------       -------------------------------------
 
    get_data           fetching all friends data
@@ -91,7 +91,7 @@ def info_ga():
 '''%(G,W)
 def menu_bot():
 	print '''
-   %sNumber                  INFO%s
+   sNumber                  INFO
  ---------   ------------------------------------
 
    [ 01 ]      auto reactions
@@ -107,7 +107,7 @@ def menu_bot():
 '''%(G,W)
 def menu_reaction():
 	print '''
-   %sNumber                  INFO%s
+   Number                  INFO
  ----------   ------------------------------------
 
    [ 01 ]      like
